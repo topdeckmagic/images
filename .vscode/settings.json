@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net5.0\\publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/b7f6e5ed-e02a-478b-8034-25844021f9b3/resourceGroups/topdeckmagic-images/providers/Microsoft.Web/sites/topdeckmagic-images"
+}

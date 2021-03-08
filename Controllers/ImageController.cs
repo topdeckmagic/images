@@ -26,8 +26,8 @@ namespace images.Controllers
                     case "FlipH":
                         FlipH(img);
                         break;
-                    case "FilpV":
-                        FilpV(img);
+                    case "FlipV":
+                        FlipV(img);
                         break;
                     case "Rotate":
                         Rotate(img, t.Args);
@@ -57,7 +57,7 @@ namespace images.Controllers
             img.Mutate(x => x.Flip(FlipMode.Horizontal));
         }
 
-        private void FilpV(Image img)
+        private void FlipV(Image img)
         {
             img.Mutate(x => x.Flip(FlipMode.Vertical));
         }
