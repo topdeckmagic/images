@@ -4,7 +4,7 @@ This is an implementaiton of a stateless server side component for processing im
 
 ## High Level Architecture
 
-<img src="docs\HighLevel.svg">
+![High Level Architecture](repo/blob/master/docs/HighLevel.svg")
 
 The architecture is simple, a client server based approach with bundling of the image with the commands required to make the transformation.  While a client can do transformations one at a time, the approach supports minimizing round trips for image processing.
 
