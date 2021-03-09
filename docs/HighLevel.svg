@@ -3,9 +3,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="649" height="269" xmlns:xlink="http://www.w3.org/1999/xlink">
     <source>
         <![CDATA[Client->Server: JSON(Image Data, Transforms)
-Note right of Server: Transform Processing
-Server-->Client: Tranformed Image
-]]>
+        Note right of Server: Transform Processing
+        Server-->Client: Tranformed Image
+        ]]>
     </source>
     <desc></desc>
     <defs>

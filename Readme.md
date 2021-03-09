@@ -43,9 +43,15 @@ The below table includes the valid Command names for the service along with the 
 | Rotate    | Int                         | Rotates the picture that number of degrees clockwise |
 | Rotate    | "Left" or "Right"           | Rotates the picture 90 degress in that direction     |
 | GrayScale | None                        | Converts the image to grayscale                      |
-| Resize    | Int \<Width>, Int \<Height> | Resized the image to the specificed Width and Height |
+| Resize    | Int \<Height>, Int \<Width> | Resized the image to the specificed Height and Width |
 | Thumbnail | None                        | Converts the image to a 30X30 pixel Thumbnai         |
 
 ## Design Patterns
 
 The application is built using the MVC model however with no implemented UI it is better called a MC implementation.  Both the overall schema and the schema for Transforms are heald in the ImageModel.cs with all relevant application logic in ImageController.cs.
+
+## Testing the Solution
+
+The solution can be validated with Postman!
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/d5b4a3a2e8fb7565334c)
